@@ -64,31 +64,4 @@ export default {
 		margin: 0 auto;
 	}
 }
-
-.results {
-	width: 90%;
-	margin: 30px auto 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	// align-items: center;
-	flex-direction: row;
-
-	.result {
-		width: 20%;
-		min-height: 350px;
-		flex-direction: column;
-		justify-content: space-between;
-
-		&__image {
-			border-radius: 50%;
-			height: 120px;
-			width: 120px;
-		}
-
-		&__link {
-			font-size: 12px;
-		}
-	}
-}
 </style>
