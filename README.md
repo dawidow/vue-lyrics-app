@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-## Build Setup
+## How to run the project
 
 ``` bash
 # install dependencies
@@ -18,5 +18,6 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # vue-lyrics-app
+
+A very simple project using the Genius API. The Genius API doesn't do much. In this project I used props, axios get method, authorization, scss, font-awesome, google fonts import.
