@@ -6,10 +6,10 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLinkAlt, faMusic } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faExternalLinkAlt)
+library.add(faExternalLinkAlt, faMusic)
 
 Vue.use(VueAxios, axios)
 Vue.use(ElementUI)
