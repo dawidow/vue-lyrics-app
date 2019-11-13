@@ -34,7 +34,7 @@ export default {
 		  if(this.search && !this.search.trim().length == 0) {
 
 			  axios.get(`https://api.genius.com/search?q=${this.search}&access_token=J2TNQOOrgxMW2kpv2i6EFcrHssL2gII5veB2p23SLOdqhLeEn1812yjY0mc2p1ge`)
-				.then(response => this.matchLyrics = response.data.response.hits)
+				.then(({ data }) => this.matchLyrics = data.response.hits)
 				.catch(err => console.log(err))
 		  }
 	  }
